@@ -1,0 +1,70 @@
+main section div img {
+  border-radius: 100%;
+  width: 50px;
+}
+
+main article img {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+main {
+  padding: 20px;
+  max-width: 50%;
+}
+
+main section iframe {
+  min-height: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+main button {
+  border-radius: 25px;
+  height: 40px;
+  cursor: pointer;
+  padding: 0.5em;
+  border: none;
+  margin: 0;
+  background-color: var(--third-color);
+}
+
+main button:hover {
+  background-color: var(--hover-color);
+}
+
+p {
+  display: inline;
+}
+
+input[type="checkbox"] {
+  height: 2em;
+  display: block;
+  appearance: none;
+}
+
+label {
+  position: relative;
+  color: #000000;
+  cursor: pointer;
+}
+
+label::before {
+  content: 'mostrar mas';
+}
+
+input[type="checkbox"]:checked ~ label::before {
+  content: 'mostrar menos';
+}
+
+.dots:has(~ input[type="checkbox"]:checked) {
+  display: none;
+}
+
+.extra:has(~ input[type="checkbox"]:checked) {
+  display: inline;
+}
+
+
+

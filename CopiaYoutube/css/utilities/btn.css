@@ -1,0 +1,37 @@
+.like-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn-comment {
+  display: flex;
+  align-items: center;
+}
+
+.btn-comment > button {
+  background-color: transparent;
+}
+
+.btn-like {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.btn-dislike {
+  border-radius: 0px 20px 20px 0px;
+}
+
+.btn-Lside-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+  
+}
+
+.btn-Rside-container {
+  display: flex; 
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+}

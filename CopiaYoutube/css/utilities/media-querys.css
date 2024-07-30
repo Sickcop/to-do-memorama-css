@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  form input {
+    width: 70%;
+  }
+
+  main section iframe {
+    width: 100vw;
+  }
+
+  main {
+    display: contents;
+  }
+
+  .main-container {
+    justify-content: left;
+  }
+}
